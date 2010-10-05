@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="c:\wamp\www\mvctest\mvctest.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/mvctest/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/mvctest/]]></PM_HOME_URL></settings><removed value=";"/><added value=""/><dplmenupath>
+	</dplmenupath><smartyassings>
+	</smartyassings><codestructure>
+		<csfile name="c:\wamp\www\mvctest\mvctest.clpprj" crc="-1147536878">
+		</csfile><csfile name="c:\wamp\www\mvctest\libs\Session.lib.php" crc="-1634965659">
+			<phptree>
+				<treenode node="Session;Php:Class Name;0;11;1;116;0;;;;;0;12;">
+					<treenode node="__construct;Php:Function Name;8;17;2;40;0;;;;;1;18;">
+					</treenode>
+					<treenode node="close;Php:Function Name;8;56;2;59;0;;;;;1;57;">
+					</treenode>
+					<treenode node="destroy;Php:Function Name;8;90;2;93;0;;;;;1;91;session_id;">
+					</treenode>
+					<treenode node="gc;Php:Function Name;8;95;2;98;0;;;;;1;96;max_lifetime;">
+					</treenode>
+					<treenode node="getInstance;Php:Function Name;8;42;2;49;0;;;;;1;43;">
+					</treenode>
+					<treenode node="getOnlineUsers;Php:Function Name;8;107;2;115;0;;;;;1;108;">
+					</treenode>
+					<treenode node="open;Php:Function Name;8;51;2;54;0;;;;;1;52;save_path;session_name;">
+					</treenode>
+					<treenode node="read;Php:Function Name;8;61;2;76;0;;;;;1;62;session_id;">
+					</treenode>
+					<treenode node="regenerateID;Php:Function Name;8;100;2;105;0;;;;;1;101;">
+					</treenode>
+					<treenode node="write;Php:Function Name;8;78;2;88;0;;;;;1;79;session_id;session_data;">
+					</treenode>
+					<treenode node="dbObj;Php:Var Name;9;13;15;13;0;;;;;-1;-1;">
+					</treenode>
+					<treenode node="db_link;Php:Var Name;9;14;17;14;0;;;;;-1;-1;">
+					</treenode>
+					<treenode node="gc_maxlifetime;Php:Var Name;9;15;24;15;0;;;;;-1;-1;">
+					</treenode>
+				</treenode>
+			</phptree>
+		</csfile><csfile name="c:\wamp\www\mvctest\libs\Database.lib.php" crc="-1432598896">
+			<phptree>
+				<treenode node="Database;Php:Class Name;0;3;1;85;0;;;;;15;3;">
+					<treenode node="__construct;Php:Function Name;8;8;2;10;0;;;;;30;8;">
+					</treenode>
+					<treenode node="_fetchObject;Php:Function Name;9;79;2;84;0;;;;;33;79;">
+					</treenode>
+					<treenode node="dbConnect;Php:Function Name;9;12;2;28;0;;;;;29;12;">
+					</treenode>
+					<treenode node="error;Php:Function Name;8;72;2;77;0;;;;;24;72;">
+					</treenode>
+					<treenode node="getLinkID;Php:Function Name;8;30;2;32;0;;;;;28;30;">
+					</treenode>
+					<treenode node="getObjectField;Php:Function Name;8;60;2;66;0;;;;;53;60;fieldName;">
+					</treenode>
+					<treenode node="getObjectRow;Php:Function Name;8;68;2;70;0;;;;;31;68;">
+					</treenode>
+					<treenode node="numRows;Php:Function Name;8;56;2;58;0;;;;;27;56;">
+					</treenode>
+					<treenode node="query;Php:Function Name;8;41;2;54;0;;;;;38;41;sql;">
+					</treenode>
+					<treenode node="quote;Php:Function Name;8;34;2;39;0;;;;;32;34;text;">
+					</treenode>
+					<treenode node="_dbLink;Php:Var Name;9;4;17;4;0;;;;;-1;-1;">
+					</treenode>
+					<treenode node="_error;Php:Var Name;9;6;16;6;0;;;;;-1;-1;">
+					</treenode>
+					<treenode node="_qryExc;Php:Var Name;9;5;17;5;0;;;;;-1;-1;">
+					</treenode>
+				</treenode>
+			</phptree>
+		</csfile><csfile name="c:\wamp\www\mvctest\libs\Config.lib.php" crc="1818007438">
+			<phptree>
+				<treenode node="Config;Php:Class Name;0;3;1;22;0;;;;;13;3;">
+					<treenode node="__construct;Php:Function Name;8;6;2;8;0;;;;;30;6;">
+					</treenode>
+					<treenode node="getValue;Php:Function Name;8;10;2;21;0;;;;;46;10;variable;">
+					</treenode>
+					<treenode node="_dbObj;Php:Var Name;9;4;16;4;0;;;;;-1;-1;">
+					</treenode>
+				</treenode>
+			</phptree>
+		</csfile><csfile name="c:\wamp\www\mvctest\settings.php" crc="956737621">
+			<phptree>
+				<treenode node="_SERVER;Php:Var Name;29;4;37;4;0;;;;;-1;-1;">
+				</treenode>
+				<treenode node="_SESSION;Php:Var Name;0;39;9;39;0;;;;;-1;-1;">
+				</treenode>
+				<treenode node="cnfObj;Php:Var Name;0;36;7;36;0;Config;;;;-1;-1;">
+				</treenode>
+				<treenode node="dbObj;Php:Var Name;0;35;6;35;0;Database;;;;-1;-1;">
+				</treenode>
+				<treenode node="sessObj;Php:Var Name;0;37;8;37;0;Session;;;;-1;-1;">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="c:\wamp\www\mvctest\index.php" crc="-1375455199">
+			<phptree>
+				<treenode node="settings.php;Php:Php Include;9;2;21;2;0;;;;;-1;-1;">
+				</treenode>
+			</phptree>
+		</csfile></codestructure></project>
